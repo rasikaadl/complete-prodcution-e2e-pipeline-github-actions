@@ -16,7 +16,7 @@ pipeline{
     
         stage("Checkout from SCM"){
             steps {
-                git branch: 'stage', credentialsId: 'github-access-token', url: 'https://github.com/rasikaadl/project-1-application'
+                git branch: 'main', credentialsId: 'github-access-token', url: 'https://github.com/rasikaadl/project-1-application'
             }
 	    }
 
