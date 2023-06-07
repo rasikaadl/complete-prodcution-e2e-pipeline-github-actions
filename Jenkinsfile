@@ -8,7 +8,7 @@ pipeline{
     }
 
     environment {
-        APP_NAME = "complete-prodcution-e2e-pipeline"
+        APP_NAME = "project-1-application"
         RELEASE = "1.0.0"
         DOCKER_USER = "lfreez123"
         DOCKER_PASS = 'docker-hub-passwd'
